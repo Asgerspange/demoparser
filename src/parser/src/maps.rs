@@ -151,6 +151,7 @@ pub static BASETYPE_DECODERS2: phf::Map<&'static str, Decoder> = phf_map! {
     "uint32" =>  UnsignedDecoder,
     "uint8" =>   UnsignedDecoder,
     "CUtlSymbolLarge" => StringDecoder,
+    "CGlobalSymbol" => StringDecoder,
     "char" => StringDecoder,
     "CUtlString" => StringDecoder,
     "CUtlStringToken" => StringDecoder,
